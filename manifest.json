@@ -14,5 +14,10 @@
       "css": ["streaks.css"]
     }
   ],
-  "permissions": ["*://api2.hackclub.com/*"]
+  "permissions": ["*://api2.hackclub.com/*"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "scrapbook-streaks-extension@calebdenio.me"
+    }
+  }
 }
