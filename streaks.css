@@ -1,0 +1,24 @@
+.calebs-loader {
+  height: 30px;
+  width: 30px;
+  background-image: url("https://assets.hackclub.com/icon-rounded.svg");
+  background-size: contain;
+
+  animation-name: spin;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+}
+
+.calebs-loader.small {
+  height: 15px;
+  width: 15px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

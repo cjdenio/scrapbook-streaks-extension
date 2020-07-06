@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "name": "scrapbook-streaks-extension",
+  "content_scripts": [
+    {
+      "matches": ["*://scrapbook.hackclub.com/*"],
+      "js": ["lib/jquery-3.5.1.min.js", "script.js"],
+      "css": ["streaks.css"]
+    },
+    {
+      "matches": ["*://streaks.hackclub.com/"],
+      "js": ["lib/jquery-3.5.1.min.js", "streaks-script.js"],
+      "css": ["streaks.css"]
+    }
+  ],
+  "permissions": ["*://api2.hackclub.com/*"]
+}
